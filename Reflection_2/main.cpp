@@ -7,18 +7,23 @@
 //
 
 #include <iostream>
-#include  "ReflectionBase.h"
-class A:public Object{
-    DECLARE_CLASS(A);
-public:
-    A(){cout<<"A construct"<<endl;};
-    ~A(){cout<<"A deconstruct"<<endl;};
-};
-IMPLEMENT_CLASS(A);
+#include "TestClass.h"
+//class A:public Object{
+//    DECLARE_CLASS(A);
+//public:
+//    A(){cout<<"A construct"<<endl;};
+//    ~A(){cout<<"A deconstruct"<<endl;};
+//public:
+//    virtual void outPrint(){
+//        cout<<"A!!!!"<<endl;
+//    }
+//};
+//IMPLEMENT_CLASS(A);
 int main(int argc, const char * argv[]) {
     // insert code here...
     //std::cout << "Hello, World!\n";
-    auto*  pTst = Object::createObject("A");
+    auto*  pTst = Object::createObject("Test");
+    pTst->outPrint();
     delete pTst;
     return 0;
 }

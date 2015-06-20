@@ -13,7 +13,8 @@ static unordered_map<string, ClassInfo*>* s_infoMap = NULL;
 IMPLEMENT_CLASS(Object);
 ClassInfo::ClassInfo(){};
 ClassInfo::~ClassInfo(){};
-ClassInfo::ClassInfo(const string& name,objectCreator oc){
+ClassInfo::ClassInfo(const string& name,objectCreator oc):m_className(name),m_creator(oc)
+{
       Object::regisClass(this);
 };
 
@@ -36,3 +37,4 @@ Object* Object::createObject(const string& name){
     }
 }
 
+void Object::outPrint(){};

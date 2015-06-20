@@ -59,6 +59,8 @@ public:
     virtual ~Object(){};
     static bool regisClass(ClassInfo* ci);
     static Object* createObject(const string& name);
+public:
+    virtual void outPrint();
 };
 
 class ClassInfo{

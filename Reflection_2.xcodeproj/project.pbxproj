@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		534FC6AF1B32E3B6003AA563 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 534FC6AE1B32E3B6003AA563 /* main.cpp */; };
 		534FC6B71B32E51E003AA563 /* ReflectionBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 534FC6B51B32E51E003AA563 /* ReflectionBase.cpp */; };
+		53E69C8A1B3582F30081EB11 /* TestClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53E69C881B3582F30081EB11 /* TestClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		534FC6AE1B32E3B6003AA563 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		534FC6B51B32E51E003AA563 /* ReflectionBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReflectionBase.cpp; sourceTree = "<group>"; };
 		534FC6B61B32E51E003AA563 /* ReflectionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionBase.h; sourceTree = "<group>"; };
+		53E69C881B3582F30081EB11 /* TestClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestClass.cpp; sourceTree = "<group>"; };
+		53E69C891B3582F30081EB11 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				534FC6AE1B32E3B6003AA563 /* main.cpp */,
 				534FC6B51B32E51E003AA563 /* ReflectionBase.cpp */,
 				534FC6B61B32E51E003AA563 /* ReflectionBase.h */,
+				53E69C881B3582F30081EB11 /* TestClass.cpp */,
+				53E69C891B3582F30081EB11 /* TestClass.h */,
 			);
 			path = Reflection_2;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E69C8A1B3582F30081EB11 /* TestClass.cpp in Sources */,
 				534FC6AF1B32E3B6003AA563 /* main.cpp in Sources */,
 				534FC6B71B32E51E003AA563 /* ReflectionBase.cpp in Sources */,
 			);
