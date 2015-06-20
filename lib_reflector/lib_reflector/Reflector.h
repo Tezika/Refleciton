@@ -1,19 +1,20 @@
 //
-//  ReflectionBase.h
-//  Reflection_2
+//  Reflector.h
+//  lib_reflector
 //
-//  Created by TonyZefkia on 6/18/15.
+//  Created by TonyZefkia on 6/20/15.
 //  Copyright (c) 2015 TonyZefkia. All rights reserved.
 //
 
-#ifndef __Reflection_2__ReflectionBase__
-#define __Reflection_2__ReflectionBase__
+#ifndef __lib_reflector__Reflector__
+#define __lib_reflector__Reflector__
 
 #include <stdio.h>
 #include <unordered_map>
 #include <string>
-
 using namespace std;
+
+#pragma GCC visibility push(default)
 
 class Object;
 class ClassInfo;
@@ -38,7 +39,7 @@ ClassInfo name::ms_classinfo((#name), \
 \
 ClassInfo *name::getClassInfo() const \
 {\
-    return &name::ms_classinfo;\
+return &name::ms_classinfo;\
 }
 
 
@@ -46,12 +47,12 @@ ClassInfo *name::getClassInfo() const \
 #define IMPLEMENT_CLASS(name)            \
 IMPLEMENT_CLASS_COMMON(name,name::createObject) \
 Object* name::createObject()                   \
-  { return new name();}
+{ return new name;}
 
 
 
 
-//object abstract class
+//object  class
 class Object{
     DECLARE_CLASS(Object);
 public:
@@ -62,6 +63,7 @@ public:
 public:
     virtual void outPrint();
 };
+
 
 class ClassInfo{
 public:
@@ -78,5 +80,7 @@ private:
     objectCreator m_creator;
 };
 
+#pragma GCC visibility pop
 
-#endif /* defined(__Reflection_2__ReflectionBase__) */
+
+#endif /* defined(__lib_reflector__Reflector__) */

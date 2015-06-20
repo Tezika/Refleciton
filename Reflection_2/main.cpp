@@ -7,7 +7,11 @@
 //
 
 #include <iostream>
-#include "TestClass.h"
+#include "A.h"
+#include "B.h"
+#include "Reflector.h"
+//#include "TestClass.h"
+//#include "lib_reflcetor.h"
 //class A:public Object{
 //    DECLARE_CLASS(A);
 //public:
@@ -22,8 +26,10 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     //std::cout << "Hello, World!\n";
-    auto*  pTst = Object::createObject("Test");
+    auto  pTst = Object::createObject("B");
+    auto  pTst2 = Object::createObject("A");
     pTst->outPrint();
+    pTst2->outPrint();
     delete pTst;
     return 0;
 }

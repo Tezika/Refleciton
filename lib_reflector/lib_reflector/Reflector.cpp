@@ -1,12 +1,12 @@
 //
-//  ReflectionBase.cpp
-//  Reflection_2
+//  Reflector.cpp
+//  lib_reflector
 //
-//  Created by TonyZefkia on 6/18/15.
+//  Created by TonyZefkia on 6/20/15.
 //  Copyright (c) 2015 TonyZefkia. All rights reserved.
 //
 
-#include "ReflectionBase.h"
+#include "Reflector.h"
 
 
 static unordered_map<string, ClassInfo*>* s_infoMap = NULL;
@@ -15,7 +15,7 @@ ClassInfo::ClassInfo(){};
 ClassInfo::~ClassInfo(){};
 ClassInfo::ClassInfo(const string& name,objectCreator oc):m_className(name),m_creator(oc)
 {
-      Object::regisClass(this);
+    Object::regisClass(this);
 };
 
 
@@ -31,10 +31,11 @@ bool Object::regisClass(ClassInfo* ci){
 
 Object* Object::createObject(const string& name){
     if (s_infoMap->find(name)!=s_infoMap->end()) {
-         return s_infoMap->find(name)->second->getInstance();
+        return s_infoMap->find(name)->second->getInstance();
     }else{
         return NULL;
     }
 }
+
 
 void Object::outPrint(){};
