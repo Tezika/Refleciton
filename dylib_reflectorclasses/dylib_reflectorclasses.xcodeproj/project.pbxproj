@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53E69D1E1B358DCE0081EB11 /* A.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53E69D1C1B358DCE0081EB11 /* A.cpp */; };
-		53E69D1F1B358DCE0081EB11 /* A.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E69D1D1B358DCE0081EB11 /* A.h */; };
-		53E69D211B358EA60081EB11 /* liblib_reflector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E69D201B358EA60081EB11 /* liblib_reflector.a */; };
-		53E69D281B3591610081EB11 /* B.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53E69D261B3591610081EB11 /* B.cpp */; };
-		53E69D291B3591610081EB11 /* B.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E69D271B3591610081EB11 /* B.h */; };
+		53F11CBA1B378B2E00A7ADBD /* ReflectorObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53F11CB81B378B2E00A7ADBD /* ReflectorObject.cpp */; };
+		53F11CBB1B378B2E00A7ADBD /* ReflectorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F11CB91B378B2E00A7ADBD /* ReflectorObject.h */; };
+		53F11CBE1B378C0000A7ADBD /* Gun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53F11CBC1B378C0000A7ADBD /* Gun.cpp */; };
+		53F11CBF1B378C0000A7ADBD /* Gun.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F11CBD1B378C0000A7ADBD /* Gun.h */; };
+		53F11CC11B378CC700A7ADBD /* WeaponHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F11CC01B378CC700A7ADBD /* WeaponHeader.h */; };
+		53F11CC91B37923B00A7ADBD /* TommyGun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53F11CC71B37923B00A7ADBD /* TommyGun.cpp */; };
+		53F11CCA1B37923B00A7ADBD /* TommyGun.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F11CC81B37923B00A7ADBD /* TommyGun.h */; };
+		53F11CCD1B3792C300A7ADBD /* Bazooka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53F11CCB1B3792C300A7ADBD /* Bazooka.cpp */; };
+		53F11CCE1B3792C300A7ADBD /* Bazooka.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F11CCC1B3792C300A7ADBD /* Bazooka.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		53E69CFB1B358C2A0081EB11 /* libdylib_reflectorclasses.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libdylib_reflectorclasses.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		53E69D1C1B358DCE0081EB11 /* A.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = A.cpp; sourceTree = "<group>"; };
-		53E69D1D1B358DCE0081EB11 /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
-		53E69D201B358EA60081EB11 /* liblib_reflector.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblib_reflector.a; path = "../../../../Library/Developer/Xcode/DerivedData/Reflection_2-azehjaveuzbfynbpamohswwnaejv/Build/Products/Debug/liblib_reflector.a"; sourceTree = "<group>"; };
-		53E69D261B3591610081EB11 /* B.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = B.cpp; sourceTree = "<group>"; };
-		53E69D271B3591610081EB11 /* B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B.h; sourceTree = "<group>"; };
+		53F11CB81B378B2E00A7ADBD /* ReflectorObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReflectorObject.cpp; sourceTree = "<group>"; };
+		53F11CB91B378B2E00A7ADBD /* ReflectorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectorObject.h; sourceTree = "<group>"; };
+		53F11CBC1B378C0000A7ADBD /* Gun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gun.cpp; sourceTree = "<group>"; };
+		53F11CBD1B378C0000A7ADBD /* Gun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gun.h; sourceTree = "<group>"; };
+		53F11CC01B378CC700A7ADBD /* WeaponHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponHeader.h; sourceTree = "<group>"; };
+		53F11CC71B37923B00A7ADBD /* TommyGun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TommyGun.cpp; sourceTree = "<group>"; };
+		53F11CC81B37923B00A7ADBD /* TommyGun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TommyGun.h; sourceTree = "<group>"; };
+		53F11CCB1B3792C300A7ADBD /* Bazooka.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bazooka.cpp; sourceTree = "<group>"; };
+		53F11CCC1B3792C300A7ADBD /* Bazooka.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bazooka.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53E69D211B358EA60081EB11 /* liblib_reflector.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,7 +45,6 @@
 		53E69CF21B358C2A0081EB11 = {
 			isa = PBXGroup;
 			children = (
-				53E69D201B358EA60081EB11 /* liblib_reflector.a */,
 				53E69CFD1B358C2A0081EB11 /* dylib_reflectorclasses */,
 				53E69CFC1B358C2A0081EB11 /* Products */,
 			);
@@ -55,10 +61,15 @@
 		53E69CFD1B358C2A0081EB11 /* dylib_reflectorclasses */ = {
 			isa = PBXGroup;
 			children = (
-				53E69D1C1B358DCE0081EB11 /* A.cpp */,
-				53E69D1D1B358DCE0081EB11 /* A.h */,
-				53E69D261B3591610081EB11 /* B.cpp */,
-				53E69D271B3591610081EB11 /* B.h */,
+				53F11CB81B378B2E00A7ADBD /* ReflectorObject.cpp */,
+				53F11CB91B378B2E00A7ADBD /* ReflectorObject.h */,
+				53F11CBC1B378C0000A7ADBD /* Gun.cpp */,
+				53F11CBD1B378C0000A7ADBD /* Gun.h */,
+				53F11CC01B378CC700A7ADBD /* WeaponHeader.h */,
+				53F11CCB1B3792C300A7ADBD /* Bazooka.cpp */,
+				53F11CCC1B3792C300A7ADBD /* Bazooka.h */,
+				53F11CC71B37923B00A7ADBD /* TommyGun.cpp */,
+				53F11CC81B37923B00A7ADBD /* TommyGun.h */,
 			);
 			path = dylib_reflectorclasses;
 			sourceTree = "<group>";
@@ -70,8 +81,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53E69D1F1B358DCE0081EB11 /* A.h in Headers */,
-				53E69D291B3591610081EB11 /* B.h in Headers */,
+				53F11CCA1B37923B00A7ADBD /* TommyGun.h in Headers */,
+				53F11CBB1B378B2E00A7ADBD /* ReflectorObject.h in Headers */,
+				53F11CCE1B3792C300A7ADBD /* Bazooka.h in Headers */,
+				53F11CBF1B378C0000A7ADBD /* Gun.h in Headers */,
+				53F11CC11B378CC700A7ADBD /* WeaponHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53E69D281B3591610081EB11 /* B.cpp in Sources */,
-				53E69D1E1B358DCE0081EB11 /* A.cpp in Sources */,
+				53F11CC91B37923B00A7ADBD /* TommyGun.cpp in Sources */,
+				53F11CBE1B378C0000A7ADBD /* Gun.cpp in Sources */,
+				53F11CBA1B378B2E00A7ADBD /* ReflectorObject.cpp in Sources */,
+				53F11CCD1B3792C300A7ADBD /* Bazooka.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +289,7 @@
 				53E69D081B358C2A0081EB11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

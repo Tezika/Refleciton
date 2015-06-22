@@ -8,18 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		534FC6AF1B32E3B6003AA563 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 534FC6AE1B32E3B6003AA563 /* main.cpp */; };
-		53E69CEF1B358B050081EB11 /* liblib_reflector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E69CEA1B3589A00081EB11 /* liblib_reflector.a */; };
 		53E69D0F1B358CC40081EB11 /* libdylib_reflectorclasses.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E69D0E1B358C2B0081EB11 /* libdylib_reflectorclasses.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		53E69CE91B3589A00081EB11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 53E69CE51B3589A00081EB11 /* lib_reflector.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 53E69CD71B3589A00081EB11;
-			remoteInfo = lib_reflector;
-		};
 		53E69D0D1B358C2B0081EB11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 53E69D091B358C2A0081EB11 /* dylib_reflectorclasses.xcodeproj */;
@@ -44,7 +36,6 @@
 /* Begin PBXFileReference section */
 		534FC6AB1B32E3B6003AA563 /* Reflection_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Reflection_2; sourceTree = BUILT_PRODUCTS_DIR; };
 		534FC6AE1B32E3B6003AA563 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		53E69CE51B3589A00081EB11 /* lib_reflector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lib_reflector.xcodeproj; path = lib_reflector/lib_reflector.xcodeproj; sourceTree = "<group>"; };
 		53E69D091B358C2A0081EB11 /* dylib_reflectorclasses.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = dylib_reflectorclasses.xcodeproj; path = dylib_reflectorclasses/dylib_reflectorclasses.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +45,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				53E69D0F1B358CC40081EB11 /* libdylib_reflectorclasses.dylib in Frameworks */,
-				53E69CEF1B358B050081EB11 /* liblib_reflector.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				53E69D091B358C2A0081EB11 /* dylib_reflectorclasses.xcodeproj */,
-				53E69CE51B3589A00081EB11 /* lib_reflector.xcodeproj */,
 				534FC6AD1B32E3B6003AA563 /* Reflection_2 */,
 				534FC6AC1B32E3B6003AA563 /* Products */,
 			);
@@ -85,14 +74,6 @@
 				534FC6AE1B32E3B6003AA563 /* main.cpp */,
 			);
 			path = Reflection_2;
-			sourceTree = "<group>";
-		};
-		53E69CE61B3589A00081EB11 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				53E69CEA1B3589A00081EB11 /* liblib_reflector.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		53E69D0A1B358C2A0081EB11 /* Products */ = {
@@ -152,10 +133,6 @@
 					ProductGroup = 53E69D0A1B358C2A0081EB11 /* Products */;
 					ProjectRef = 53E69D091B358C2A0081EB11 /* dylib_reflectorclasses.xcodeproj */;
 				},
-				{
-					ProductGroup = 53E69CE61B3589A00081EB11 /* Products */;
-					ProjectRef = 53E69CE51B3589A00081EB11 /* lib_reflector.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -165,13 +142,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		53E69CEA1B3589A00081EB11 /* liblib_reflector.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = liblib_reflector.a;
-			remoteRef = 53E69CE91B3589A00081EB11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		53E69D0E1B358C2B0081EB11 /* libdylib_reflectorclasses.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";

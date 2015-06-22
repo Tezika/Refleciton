@@ -1,13 +1,12 @@
 //
-//  Reflector.cpp
-//  lib_reflector
+//  ReflectorObject.cpp
+//  dylib_reflectorclasses
 //
-//  Created by TonyZefkia on 6/20/15.
+//  Created by TonyZefkia on 6/22/15.
 //  Copyright (c) 2015 TonyZefkia. All rights reserved.
 //
 
-#include "Reflector.h"
-
+#include "ReflectorObject.h"
 
 static unordered_map<string, ClassInfo*>* s_infoMap = NULL;
 IMPLEMENT_CLASS(Object);
@@ -38,4 +37,4 @@ Object* Object::createObject(const string& name){
 }
 
 
-void Object::outPrint(){};
+void Object::disWeaponName(){};

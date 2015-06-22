@@ -1,15 +1,15 @@
 //
-//  Reflector.h
-//  lib_reflector
+//  ReflectorObject.h
+//  dylib_reflectorclasses
 //
-//  Created by TonyZefkia on 6/20/15.
+//  Created by TonyZefkia on 6/22/15.
 //  Copyright (c) 2015 TonyZefkia. All rights reserved.
 //
 
-#ifndef __lib_reflector__Reflector__
-#define __lib_reflector__Reflector__
+#ifndef __dylib_reflectorclasses__ReflectorObject__
+#define __dylib_reflectorclasses__ReflectorObject__
 
-#include <stdio.h>
+#include <iostream>
 #include <unordered_map>
 #include <string>
 using namespace std;
@@ -61,10 +61,10 @@ public:
     static bool regisClass(ClassInfo* ci);
     static Object* createObject(const string& name);
 public:
-    virtual void outPrint();
+    virtual void disWeaponName();
 };
 
-
+//class's information
 class ClassInfo{
 public:
     ClassInfo();
@@ -83,4 +83,6 @@ private:
 #pragma GCC visibility pop
 
 
-#endif /* defined(__lib_reflector__Reflector__) */
+
+
+#endif /* defined(__dylib_reflectorclasses__ReflectorObject__) */
