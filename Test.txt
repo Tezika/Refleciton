@@ -1,6 +1,8 @@
 1 Gun
 2 TommyGun
 3 Bazooka
-4 Gun
+4 Gu
 5 TommyGun
 6 Gun
+7 Bazooka
+8 TommyGun

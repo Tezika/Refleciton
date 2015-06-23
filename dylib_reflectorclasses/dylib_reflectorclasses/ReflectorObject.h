@@ -61,7 +61,7 @@ public:
     static bool regisClass(ClassInfo* ci);
     static Object* createObject(const string& name);
 public:
-    virtual void disWeaponName();
+    virtual void shoot();
 };
 
 //class's information

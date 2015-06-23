@@ -11,8 +11,8 @@
 Gun::Gun(){};
 Gun::~Gun(){};
 
-void Gun::disWeaponName(){
-    cout<<"This is a gun!"<<endl;
+void Gun::shoot(){
+    cout<<"Gun shoot!"<<endl;
 }
 
 IMPLEMENT_CLASS(Gun);

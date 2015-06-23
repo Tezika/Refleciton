@@ -15,8 +15,8 @@
 TommyGun::TommyGun(){};
 TommyGun::~TommyGun(){};
 
-void TommyGun::disWeaponName(){
-    cout<<"This a Tommy Gun!"<<endl;
+void TommyGun::shoot(){
+    cout<<"TommyGun shoot!"<<endl;
 }
 
 IMPLEMENT_CLASS(TommyGun);

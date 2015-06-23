@@ -18,6 +18,6 @@ public:
     Gun();
     ~Gun();
 public:
-    virtual void disWeaponName() override;
+    virtual void shoot() override;
 };
 #endif /* defined(__dylib_reflectorclasses__Gun__) */

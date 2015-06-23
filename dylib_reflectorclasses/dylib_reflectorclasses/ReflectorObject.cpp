@@ -37,4 +37,4 @@ Object* Object::createObject(const string& name){
 }
 
 
-void Object::disWeaponName(){};
+void Object::shoot(){};

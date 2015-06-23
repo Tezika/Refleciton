@@ -17,7 +17,7 @@ public:
     Bazooka();
     ~Bazooka();
 public:
-    virtual void disWeaponName() override;
+    virtual void shoot() override;
 };
 
 #endif /* defined(__dylib_reflectorclasses__Bazooka__) */

@@ -12,8 +12,8 @@
 Bazooka::Bazooka(){};
 Bazooka::~Bazooka(){};
 
-void Bazooka::disWeaponName(){
-    cout<<"This is a Bazooka!"<<endl;
+void Bazooka::shoot(){
+    cout<<"Bazooka shoot!"<<endl;
 }
 
 IMPLEMENT_CLASS(Bazooka);

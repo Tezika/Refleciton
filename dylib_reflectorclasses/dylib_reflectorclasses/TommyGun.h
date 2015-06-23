@@ -17,7 +17,7 @@ public:
     TommyGun();
     ~TommyGun();
 public:
-    virtual void  disWeaponName() override;
+    virtual void  shoot() override;
     
 };
 
