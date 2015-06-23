@@ -8,7 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		534FC6AF1B32E3B6003AA563 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 534FC6AE1B32E3B6003AA563 /* main.cpp */; };
+		53E69D0F1B358CC40081EB11 /* libdylib_reflectorclasses.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E69D0E1B358C2B0081EB11 /* libdylib_reflectorclasses.dylib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53E69D0D1B358C2B0081EB11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53E69D091B358C2A0081EB11 /* dylib_reflectorclasses.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53E69CFB1B358C2A0081EB11;
+			remoteInfo = dylib_reflectorclasses;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		534FC6A91B32E3B6003AA563 /* CopyFiles */ = {
@@ -25,6 +36,7 @@
 /* Begin PBXFileReference section */
 		534FC6AB1B32E3B6003AA563 /* Reflection_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Reflection_2; sourceTree = BUILT_PRODUCTS_DIR; };
 		534FC6AE1B32E3B6003AA563 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		53E69D091B358C2A0081EB11 /* dylib_reflectorclasses.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = dylib_reflectorclasses.xcodeproj; path = dylib_reflectorclasses/dylib_reflectorclasses.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E69D0F1B358CC40081EB11 /* libdylib_reflectorclasses.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +54,7 @@
 		534FC6A21B32E3B6003AA563 = {
 			isa = PBXGroup;
 			children = (
+				53E69D091B358C2A0081EB11 /* dylib_reflectorclasses.xcodeproj */,
 				534FC6AD1B32E3B6003AA563 /* Reflection_2 */,
 				534FC6AC1B32E3B6003AA563 /* Products */,
 			);
@@ -60,6 +74,14 @@
 				534FC6AE1B32E3B6003AA563 /* main.cpp */,
 			);
 			path = Reflection_2;
+			sourceTree = "<group>";
+		};
+		53E69D0A1B358C2A0081EB11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E69D0E1B358C2B0081EB11 /* libdylib_reflectorclasses.dylib */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,12 +128,28 @@
 			mainGroup = 534FC6A21B32E3B6003AA563;
 			productRefGroup = 534FC6AC1B32E3B6003AA563 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 53E69D0A1B358C2A0081EB11 /* Products */;
+					ProjectRef = 53E69D091B358C2A0081EB11 /* dylib_reflectorclasses.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				534FC6AA1B32E3B6003AA563 /* Reflection_2 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		53E69D0E1B358C2B0081EB11 /* libdylib_reflectorclasses.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libdylib_reflectorclasses.dylib;
+			remoteRef = 53E69D0D1B358C2B0081EB11 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		534FC6A71B32E3B6003AA563 /* Sources */ = {
@@ -160,10 +198,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					./lib_reflector,
+					./dylib_reflectorclasses,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "./lib_reflector/lib_reflector ./dylib_reflectorclasses/dylib_reflectorclasses";
 			};
 			name = Debug;
 		};
@@ -196,23 +239,46 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					./lib_reflector,
+					./dylib_reflectorclasses,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "./lib_reflector/lib_reflector ./dylib_reflectorclasses/dylib_reflectorclasses";
 			};
 			name = Release;
 		};
 		534FC6B31B32E3B6003AA563 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					./lib_reflector,
+					./dylib_reflectorclasses,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "./lib_reflector/lib_reflector ./dylib_reflectorclasses/dylib_reflectorclasses";
 			};
 			name = Debug;
 		};
 		534FC6B41B32E3B6003AA563 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					./lib_reflector,
+					./dylib_reflectorclasses,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "./lib_reflector/lib_reflector ./dylib_reflectorclasses/dylib_reflectorclasses";
 			};
 			name = Release;
 		};
@@ -235,6 +301,7 @@
 				534FC6B41B32E3B6003AA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

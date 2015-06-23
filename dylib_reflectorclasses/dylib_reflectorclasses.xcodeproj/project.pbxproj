@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53F11CBA1B378B2E00A7ADBD /* ReflectorObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53F11CB81B378B2E00A7ADBD /* ReflectorObject.cpp */; };
+		53F11CBB1B378B2E00A7ADBD /* ReflectorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F11CB91B378B2E00A7ADBD /* ReflectorObject.h */; };
+		53F11CBE1B378C0000A7ADBD /* Gun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53F11CBC1B378C0000A7ADBD /* Gun.cpp */; };
+		53F11CBF1B378C0000A7ADBD /* Gun.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F11CBD1B378C0000A7ADBD /* Gun.h */; };
+		53F11CC11B378CC700A7ADBD /* WeaponHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F11CC01B378CC700A7ADBD /* WeaponHeader.h */; };
+		53F11CC91B37923B00A7ADBD /* TommyGun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53F11CC71B37923B00A7ADBD /* TommyGun.cpp */; };
+		53F11CCA1B37923B00A7ADBD /* TommyGun.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F11CC81B37923B00A7ADBD /* TommyGun.h */; };
+		53F11CCD1B3792C300A7ADBD /* Bazooka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53F11CCB1B3792C300A7ADBD /* Bazooka.cpp */; };
+		53F11CCE1B3792C300A7ADBD /* Bazooka.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F11CCC1B3792C300A7ADBD /* Bazooka.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53E69CFB1B358C2A0081EB11 /* libdylib_reflectorclasses.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libdylib_reflectorclasses.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F11CB81B378B2E00A7ADBD /* ReflectorObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReflectorObject.cpp; sourceTree = "<group>"; };
+		53F11CB91B378B2E00A7ADBD /* ReflectorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectorObject.h; sourceTree = "<group>"; };
+		53F11CBC1B378C0000A7ADBD /* Gun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gun.cpp; sourceTree = "<group>"; };
+		53F11CBD1B378C0000A7ADBD /* Gun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gun.h; sourceTree = "<group>"; };
+		53F11CC01B378CC700A7ADBD /* WeaponHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponHeader.h; sourceTree = "<group>"; };
+		53F11CC71B37923B00A7ADBD /* TommyGun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TommyGun.cpp; sourceTree = "<group>"; };
+		53F11CC81B37923B00A7ADBD /* TommyGun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TommyGun.h; sourceTree = "<group>"; };
+		53F11CCB1B3792C300A7ADBD /* Bazooka.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bazooka.cpp; sourceTree = "<group>"; };
+		53F11CCC1B3792C300A7ADBD /* Bazooka.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bazooka.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53E69CF81B358C2A0081EB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53E69CF21B358C2A0081EB11 = {
+			isa = PBXGroup;
+			children = (
+				53E69CFD1B358C2A0081EB11 /* dylib_reflectorclasses */,
+				53E69CFC1B358C2A0081EB11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53E69CFC1B358C2A0081EB11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E69CFB1B358C2A0081EB11 /* libdylib_reflectorclasses.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E69CFD1B358C2A0081EB11 /* dylib_reflectorclasses */ = {
+			isa = PBXGroup;
+			children = (
+				53F11CB81B378B2E00A7ADBD /* ReflectorObject.cpp */,
+				53F11CB91B378B2E00A7ADBD /* ReflectorObject.h */,
+				53F11CBC1B378C0000A7ADBD /* Gun.cpp */,
+				53F11CBD1B378C0000A7ADBD /* Gun.h */,
+				53F11CC01B378CC700A7ADBD /* WeaponHeader.h */,
+				53F11CCB1B3792C300A7ADBD /* Bazooka.cpp */,
+				53F11CCC1B3792C300A7ADBD /* Bazooka.h */,
+				53F11CC71B37923B00A7ADBD /* TommyGun.cpp */,
+				53F11CC81B37923B00A7ADBD /* TommyGun.h */,
+			);
+			path = dylib_reflectorclasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53E69CF91B358C2A0081EB11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F11CCA1B37923B00A7ADBD /* TommyGun.h in Headers */,
+				53F11CBB1B378B2E00A7ADBD /* ReflectorObject.h in Headers */,
+				53F11CCE1B3792C300A7ADBD /* Bazooka.h in Headers */,
+				53F11CBF1B378C0000A7ADBD /* Gun.h in Headers */,
+				53F11CC11B378CC700A7ADBD /* WeaponHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53E69CFA1B358C2A0081EB11 /* dylib_reflectorclasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E69D061B358C2A0081EB11 /* Build configuration list for PBXNativeTarget "dylib_reflectorclasses" */;
+			buildPhases = (
+				53E69CF71B358C2A0081EB11 /* Sources */,
+				53E69CF81B358C2A0081EB11 /* Frameworks */,
+				53E69CF91B358C2A0081EB11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dylib_reflectorclasses;
+			productName = dylib_reflectorclasses;
+			productReference = 53E69CFB1B358C2A0081EB11 /* libdylib_reflectorclasses.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53E69CF31B358C2A0081EB11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = TonyZefkia;
+				TargetAttributes = {
+					53E69CFA1B358C2A0081EB11 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 53E69CF61B358C2A0081EB11 /* Build configuration list for PBXProject "dylib_reflectorclasses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53E69CF21B358C2A0081EB11;
+			productRefGroup = 53E69CFC1B358C2A0081EB11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E69CFA1B358C2A0081EB11 /* dylib_reflectorclasses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E69CF71B358C2A0081EB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F11CC91B37923B00A7ADBD /* TommyGun.cpp in Sources */,
+				53F11CBE1B378C0000A7ADBD /* Gun.cpp in Sources */,
+				53F11CBA1B378B2E00A7ADBD /* ReflectorObject.cpp in Sources */,
+				53F11CCD1B3792C300A7ADBD /* Bazooka.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53E69D041B358C2A0081EB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = ../lib_reflector;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = ../lib_reflector/lib_reflector;
+			};
+			name = Debug;
+		};
+		53E69D051B358C2A0081EB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = ../lib_reflector;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = ../lib_reflector/lib_reflector;
+			};
+			name = Release;
+		};
+		53E69D071B358C2A0081EB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Reflection_2-azehjaveuzbfynbpamohswwnaejv/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53E69D081B358C2A0081EB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Reflection_2-azehjaveuzbfynbpamohswwnaejv/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53E69CF61B358C2A0081EB11 /* Build configuration list for PBXProject "dylib_reflectorclasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E69D041B358C2A0081EB11 /* Debug */,
+				53E69D051B358C2A0081EB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E69D061B358C2A0081EB11 /* Build configuration list for PBXNativeTarget "dylib_reflectorclasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E69D071B358C2A0081EB11 /* Debug */,
+				53E69D081B358C2A0081EB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53E69CF31B358C2A0081EB11 /* Project object */;
+}
