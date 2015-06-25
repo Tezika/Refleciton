@@ -13,8 +13,15 @@
 
  3.几点说明: <a name="dot"/>
  * ID为4的并没有输出，因为其ID实例化的类名存在问题（`Gu`并没有这个这个类）。  
- * 因为mac在文件系统上只能读写绝对路径，所以应该在运行前修改`main.cpp`中的如下代码为使用的实际路径。
-  <a name="code"/>
-   ```cpp
-   const char* FILE_PATH = "/Users/Tezika/Projects/CodingLearn/Reflection_2/Test.txt";
-   ```
+ * 因为mac在文件系统上只能读写绝对路径，所以应该在运行前修改`main.cpp`中的如下代码为使用的实际路径。<a name="code"/>
+```cpp
+  const char* FILE_PATH = "/Users/Tezika/Projects/CodingLearn/Reflection_2/Test.txt";
+```
+##三、存在的问题
+  <a name="dot"/>
+  * `Object`基类无法变成抽象类。
+  * `Reflector.cpp`中的`s_infoMap`存在内存泄露问题。
+  *  文件读写部分关于`strtok`字符串部分割也存在内存泄露问题。
+
+
+
