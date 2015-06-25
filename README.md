@@ -20,7 +20,6 @@
 ```cpp
   const char* FILE_PATH = "/Users/Tezika/Projects/CodingLearn/Reflection_2/Test.txt";
 ```
->>
 ##三、存在的问题
   <a name="dot"/>
   * `Object`基类无法变成抽象类。
