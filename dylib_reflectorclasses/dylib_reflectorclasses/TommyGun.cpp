@@ -8,10 +8,6 @@
 
 #include "TommyGun.h"
 
-
-#include "TommyGun.h"
-
-
 TommyGun::TommyGun(){};
 TommyGun::~TommyGun(){};
 
