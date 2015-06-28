@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5345155B1B401B9900B3C78B /* OtherGun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 534515591B401B9900B3C78B /* OtherGun.cpp */; };
+		5345155C1B401B9900B3C78B /* OtherGun.h in Headers */ = {isa = PBXBuildFile; fileRef = 5345155A1B401B9900B3C78B /* OtherGun.h */; };
 		53F11CBA1B378B2E00A7ADBD /* ReflectorObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53F11CB81B378B2E00A7ADBD /* ReflectorObject.cpp */; };
 		53F11CBB1B378B2E00A7ADBD /* ReflectorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F11CB91B378B2E00A7ADBD /* ReflectorObject.h */; };
 		53F11CBE1B378C0000A7ADBD /* Gun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53F11CBC1B378C0000A7ADBD /* Gun.cpp */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		534515591B401B9900B3C78B /* OtherGun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OtherGun.cpp; sourceTree = "<group>"; };
+		5345155A1B401B9900B3C78B /* OtherGun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherGun.h; sourceTree = "<group>"; };
 		53E69CFB1B358C2A0081EB11 /* libdylib_reflectorclasses.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libdylib_reflectorclasses.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F11CB81B378B2E00A7ADBD /* ReflectorObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReflectorObject.cpp; sourceTree = "<group>"; };
 		53F11CB91B378B2E00A7ADBD /* ReflectorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectorObject.h; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 				53F11CCC1B3792C300A7ADBD /* Bazooka.h */,
 				53F11CC71B37923B00A7ADBD /* TommyGun.cpp */,
 				53F11CC81B37923B00A7ADBD /* TommyGun.h */,
+				534515591B401B9900B3C78B /* OtherGun.cpp */,
+				5345155A1B401B9900B3C78B /* OtherGun.h */,
 			);
 			path = dylib_reflectorclasses;
 			sourceTree = "<group>";
@@ -81,6 +87,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5345155C1B401B9900B3C78B /* OtherGun.h in Headers */,
 				53F11CCA1B37923B00A7ADBD /* TommyGun.h in Headers */,
 				53F11CBB1B378B2E00A7ADBD /* ReflectorObject.h in Headers */,
 				53F11CCE1B3792C300A7ADBD /* Bazooka.h in Headers */,
@@ -147,6 +154,7 @@
 			files = (
 				53F11CC91B37923B00A7ADBD /* TommyGun.cpp in Sources */,
 				53F11CBE1B378C0000A7ADBD /* Gun.cpp in Sources */,
+				5345155B1B401B9900B3C78B /* OtherGun.cpp in Sources */,
 				53F11CBA1B378B2E00A7ADBD /* ReflectorObject.cpp in Sources */,
 				53F11CCD1B3792C300A7ADBD /* Bazooka.cpp in Sources */,
 			);

@@ -9,6 +9,17 @@
 #ifndef __dylib_reflectorclasses__OtherGun__
 #define __dylib_reflectorclasses__OtherGun__
 
-#include <stdio.h>
+#include "ReflectorObject.h"
+
+class OtherGun:public Object{
+    DECLARE_CLASS(OtherGun);
+public:
+    OtherGun();
+    ~OtherGun();
+public:
+    virtual void  shoot() override;
+    
+};
+
 
 #endif /* defined(__dylib_reflectorclasses__OtherGun__) */
