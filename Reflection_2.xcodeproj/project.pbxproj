@@ -12,6 +12,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5345155E1B401D7200B3C78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53E69D091B358C2A0081EB11 /* dylib_reflectorclasses.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 53E69CFA1B358C2A0081EB11;
+			remoteInfo = dylib_reflectorclasses;
+		};
 		53E69D0D1B358C2B0081EB11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 53E69D091B358C2A0081EB11 /* dylib_reflectorclasses.xcodeproj */;
@@ -98,6 +105,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5345155F1B401D7200B3C78B /* PBXTargetDependency */,
 			);
 			name = Reflection_2;
 			productName = Reflection_2;
@@ -161,6 +169,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5345155F1B401D7200B3C78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dylib_reflectorclasses;
+			targetProxy = 5345155E1B401D7200B3C78B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		534FC6B01B32E3B6003AA563 /* Debug */ = {

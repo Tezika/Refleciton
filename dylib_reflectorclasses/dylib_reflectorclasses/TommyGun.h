@@ -11,7 +11,7 @@
 
 #include "ReflectorObject.h"
 
-class TommyGun:public Object{
+NAME_CLASS(TommyGun){
     DECLARE_CLASS(TommyGun);
 public:
     TommyGun();

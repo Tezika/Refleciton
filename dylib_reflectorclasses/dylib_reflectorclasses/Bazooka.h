@@ -11,7 +11,7 @@
 
 #include "ReflectorObject.h"
 
-class Bazooka:public Object{
+NAME_CLASS(Bazooka){
     DECLARE_CLASS(Bazooka);
 public:
     Bazooka();

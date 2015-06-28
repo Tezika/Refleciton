@@ -22,6 +22,10 @@ class ClassInfo;
 typedef Object* (*objectCreator)(void);
 
 
+//使用这个宏来屏蔽命名带来的继承
+#define NAME_CLASS(name)\
+class name:public Object
+
 
 #define DECLARE_CLASS(name) \
 protected: \
