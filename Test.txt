@@ -6,3 +6,4 @@
 6 Gun
 7 Bazooka
 8 TommyGun
+9 OtherGun
