@@ -4,7 +4,7 @@
  * 修改`Object`基类中的内容使其符合自己的要求。
  * 将反射有关的类编译成动态链接库`dylib_reflectorclasses`使其能够实现灵活的添加和很大程度的解耦。
 
-##二、使用流程
+## How to test it?
 1.打开其中Test.txt,加入自己想要输入的实例类名字，格式按照"ID 名称“的格式来录入。  
 
 <a name="pic"/>
@@ -20,13 +20,12 @@
 ```cpp
   const char* FILE_PATH = "/Users/Tezika/Projects/CodingLearn/Reflection_2/Test.txt";
 ```
-##三、存在的问题
+## Issues
   <a name="dot"/>
   * `Object`基类无法变成抽象类。
   * `Reflector.cpp`中的`s_infoMap`存在内存泄露问题。
   *  文件读写部分关于`strtok`字符串部分割也存在内存泄露问题。
  
-##最后有兴趣的大神和童鞋可以和我交流和完善这个项目哟。。:)!
   
 
 
