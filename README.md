@@ -1,4 +1,4 @@
-# Refleciton
+# Reflection
 ## Introduction<a name="link"/><a name="dot"/>
 该项目通过对开源中国的一个大神实现关于反射的项目([原项目传送门](http://www.oschina.net/code/snippet_230828_9913))进行了理解，重新设计，以及以下两个方面的改写:  
  * 修改`Object`基类中的内容使其符合自己的要求。
