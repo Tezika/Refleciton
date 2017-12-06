@@ -1,5 +1,5 @@
-# Refleciton_2(C++实现反射机制，Mac版)
-##一、简介<a name="link"/><a name="dot"/>
+# Refleciton
+## Introduction<a name="link"/><a name="dot"/>
 该项目通过对开源中国的一个大神实现关于反射的项目([原项目传送门](http://www.oschina.net/code/snippet_230828_9913))进行了理解，重新设计，以及以下两个方面的改写:  
  * 修改`Object`基类中的内容使其符合自己的要求。
  * 将反射有关的类编译成动态链接库`dylib_reflectorclasses`使其能够实现灵活的添加和很大程度的解耦。
