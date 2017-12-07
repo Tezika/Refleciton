@@ -1,7 +1,7 @@
 # Reflection
 ## Introduction<a name="link"/><a name="dot"/>
  
- This mini project reinvents some parts of the codebase of this ([project](http://www.oschina.net/code/snippet_230828_9913)), particular for two aspects:
+ This mini project reinvents some parts of the codebase of this [project](http://www.oschina.net/code/snippet_230828_9913), particular for two aspects:
  * Modify the `Object` class to add or remove some functions
  * Compile classes which correspond to reflection to .dll and significantly decouple the whole codebase. 
 
