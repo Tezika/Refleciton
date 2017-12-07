@@ -16,7 +16,7 @@
 
  3. Explanation:   
  * If you have noticed that the class within id '4' does not input any info, that's because `Gu` is an invalid class and be ruled out.
- * Since some limitations of the relative path in Mac, before running it, please revise the code includes the info of absolute path.
+ * Since some limitations of the relative path in Mac, before running it, please change the code includes the info of absolute path.
 ```cpp
   const char* FILE_PATH = "/Users/Tezika/Projects/CodingLearn/Reflection_2/Test.txt";
 ```
